@@ -1,5 +1,5 @@
 .portfolio-title {
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -83,7 +83,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;
+    row-gap: 72px;
   }
 
   .portfolio-item {

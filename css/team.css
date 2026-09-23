@@ -2,6 +2,10 @@
   background-color: #f4f4fd;
 }
 
+.team .section-title {
+  margin-bottom: 72px;
+}
+
 .team-list {
   display: flex;
   flex-direction: column;

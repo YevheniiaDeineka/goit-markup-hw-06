@@ -1,7 +1,7 @@
 .hero {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 112px 0;
+  padding: 72px 0;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     image-set(
@@ -55,7 +55,7 @@
 
   .hero-title {
     max-width: 496px;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
     font-size: 56px;
     line-height: 1.07;
   }

@@ -10,7 +10,7 @@
 
 .logo {
   display: block;
-  padding: 24px 0;
+  padding: 16px 0;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -36,19 +36,17 @@
 
 .mobile-menu-open {
   display: flex;
-  flex-direction: column;
-  gap: 4px;
+  align-items: center;
+  justify-content: center;
   width: 24px;
+  height: 24px;
   padding: 0;
   border: 0;
   background: transparent;
 }
 
-.mobile-menu-open span {
-  display: block;
-  height: 2px;
-  border-radius: 2px;
-  background-color: #2e2f42;
+.mobile-menu-open svg {
+  fill: currentColor;
 }
 
 @media screen and (min-width: 768px) {
@@ -69,6 +67,7 @@
   }
 
   .logo {
+    padding: 24px 0;
     margin-right: 120px;
   }
 

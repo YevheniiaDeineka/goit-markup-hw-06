@@ -16,13 +16,15 @@
 .features-title {
   margin-bottom: 8px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2;
+  text-align: center;
   letter-spacing: 0.02em;
 }
 
 .features-text {
   color: #434455;
+  font-weight: 500;
   line-height: 1.5;
   text-align: left;
   letter-spacing: 0.02em;
@@ -40,6 +42,17 @@
     width: calc((100% - 24px) / 2);
     text-align: left;
   }
+}
+
+@media screen and (min-width: 1158px) {
+  .features-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .features-item {
+    width: calc((100% - 72px) / 4);
+  }
 
   .features-icon-box {
     display: flex;
@@ -56,15 +69,14 @@
   .features-icon {
     fill: currentColor;
   }
-}
 
-@media screen and (min-width: 1158px) {
-  .features-list {
-    flex-wrap: nowrap;
-    gap: 24px;
+  .features-title {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
   }
 
-  .features-item {
-    width: calc((100% - 72px) / 4);
+  .features-text {
+    font-weight: 400;
   }
 }

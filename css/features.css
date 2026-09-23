@@ -15,9 +15,9 @@
 
 .features-title {
   margin-bottom: 8px;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -40,6 +40,10 @@
 
   .features-item {
     width: calc((100% - 24px) / 2);
+    text-align: left;
+  }
+
+  .features-title {
     text-align: left;
   }
 }

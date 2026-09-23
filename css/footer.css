@@ -146,6 +146,7 @@
 
 @media screen and (min-width: 768px) {
   .footer-container {
+    max-width: 584px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -161,6 +162,10 @@
   .footer-social {
     margin-bottom: 72px;
     text-align: left;
+  }
+
+  .footer-social-list {
+    justify-content: flex-start;
   }
 
   .footer-subscribe {
@@ -185,6 +190,7 @@
   }
 
   .footer-container {
+    max-width: 1158px;
     flex-wrap: nowrap;
     justify-content: flex-start;
   }

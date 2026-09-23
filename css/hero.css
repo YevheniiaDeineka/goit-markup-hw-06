@@ -16,7 +16,7 @@
 }
 
 .hero-title {
-  max-width: 288px;
+  max-width: 216px;
   margin: 0 auto 72px;
   font-size: 36px;
   line-height: 1.11;
@@ -70,5 +70,9 @@
         url("../images/bg-people-office-desktop.jpg") 1x,
         url("../images/bg-people-office-desktop@2x.jpg") 2x
       );
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
   }
 }
